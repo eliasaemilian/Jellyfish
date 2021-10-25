@@ -45,7 +45,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
             ],
             ""bindings"": [
                 {
-                    ""name"": ""Vertical Steer"",
+                    ""name"": ""XRotate"",
                     ""id"": ""81e34700-abb6-4d53-80d3-de867b2579fe"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
@@ -78,7 +78,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""Horizontal Steer"",
+                    ""name"": ""ZRotate"",
                     ""id"": ""7a5c83f8-0267-4d00-b836-30d3c0799b53"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
