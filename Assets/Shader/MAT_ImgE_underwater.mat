@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_surfJellyfishHead
-  m_Shader: {fileID: 4800000, guid: 7771abc55948ab34ca82a0e170cfc230, type: 3}
+  m_Name: MAT_ImgE_underwater
+  m_Shader: {fileID: 4800000, guid: d896c61d15068e44b82924d33248cbbb, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -25,13 +25,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amount: 1
-    - _Debug: 0
-    - _Frequency: 7.63
-    - _Glossiness: 0.5
-    - _Metallic: 0
-    - _Strength: 0.1
-    - _t: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _NoiseFrequency: 0.48
+    - _NoiseScale: 4.19
+    - _NoiseSpeed: 1.63
+    - _PixelOffset: 0.02
+    m_Colors: []
   m_BuildTextureStacks: []
