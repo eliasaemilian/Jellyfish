@@ -6,7 +6,10 @@ Shader "Custom/surfJellyfishHead"
 		_MainTex( "Albedo (RGB)", 2D ) = "white" {}
 		_Glossiness( "Smoothness", Range( 0,1 ) ) = 0.5
 		_Metallic( "Metallic", Range( 0,1 ) ) = 0.0
+		_Debug( "Debug", Range( 0,1 ) ) = 0.0
+		_Strength( "Offset Strength", Range( 0,1 ) ) = 0.2
 		_Amount( "Expansion Amount", Float ) = 1
+		_Frequency( "Contraction Frequency", Float ) = 3
 	}
 		SubShader
 		{
@@ -29,12 +32,19 @@ Shader "Custom/surfJellyfishHead"
 
 			half _Glossiness;
 			half _Metallic;
+			half _Amount, _Debug, _Frequency, _Strength;
 			fixed4 _Color;
 
 
 			void vert( inout appdata_full v )
 			{
-				v.vertex.xyz += v.normal * _Amount;
+
+				float yval = v.vertex.y * _Frequency;
+				float displace = sin( yval + ( _Debug * _Frequency ) );
+				displace *= _Strength;
+				displace += _Amount;
+				v.vertex.xz *= displace;
+
 			}
 
 
