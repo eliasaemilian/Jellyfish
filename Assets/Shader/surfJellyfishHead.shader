@@ -40,7 +40,7 @@ Shader "Custom/surfJellyfishHead"
 			{
 
 				float yval = v.vertex.y * _Frequency;
-				float displace = sin( yval + ( _Debug * _Frequency ) );
+				float displace = sin( yval + ( _Time.y * _Frequency ) );
 				displace *= _Strength;
 				displace += _Amount;
 				v.vertex.xz *= displace;
