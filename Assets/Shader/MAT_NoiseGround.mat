@@ -27,8 +27,8 @@ Material:
     m_Floats:
     - _Glossiness: 0.342
     - _Metallic: 0
-    - _NoiseFrequency: 0.9
-    - _NoiseScale: 6.74
+    - _NoiseFrequency: 0.85
+    - _NoiseScale: 5.44
     - _Tessellation: 4
     m_Colors:
     - _Color: {r: 0.2302599, g: 0.28240553, b: 0.31132078, a: 1}

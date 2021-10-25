@@ -2220,10 +2220,22 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tentacle
       objectReference: {fileID: 0}
+    - target: {fileID: -605401249411505660, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee22dfcd52cb54f418bea0f9dd09dbef, type: 2}
+    - target: {fileID: -236412653614841994, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee22dfcd52cb54f418bea0f9dd09dbef, type: 2}
     - target: {fileID: 50754954277266222, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
       propertyPath: m_TagString
       value: Tentacle
       objectReference: {fileID: 0}
+    - target: {fileID: 193323465437373562, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee22dfcd52cb54f418bea0f9dd09dbef, type: 2}
     - target: {fileID: 919132149155446097, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
       propertyPath: m_Name
       value: Jellyfish_riganim
@@ -2243,11 +2255,23 @@ PrefabInstance:
     - target: {fileID: 6684295394808222897, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -4166122131449900586, guid: f169b751f74b3b049b673d19b7b8bf0b, type: 3}
+      objectReference: {fileID: 2100000, guid: ee22dfcd52cb54f418bea0f9dd09dbef, type: 2}
+    - target: {fileID: 6786320725658967303, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee22dfcd52cb54f418bea0f9dd09dbef, type: 2}
+    - target: {fileID: 7205140776170859923, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee22dfcd52cb54f418bea0f9dd09dbef, type: 2}
     - target: {fileID: 8417361359673230750, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a5aef84c9ab2b3f49abbe35e89e4bfea, type: 2}
+    - target: {fileID: 8442137758569561092, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee22dfcd52cb54f418bea0f9dd09dbef, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
 --- !u!1 &460936269 stripped
@@ -5422,7 +5446,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 150
+  far clip plane: 135
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -5435,7 +5459,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -5469,6 +5493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mat: {fileID: 2100000, guid: 11ff9d533dae5a243864e22c7924913b, type: 2}
   matfog: {fileID: 2100000, guid: 22e863de706caba45b1af1abcd946853, type: 2}
+  enableFog: 0
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5487,12 +5512,12 @@ MonoBehaviour:
     m_Bits: 64
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
-  antialiasingMode: 3
+  antialiasingMode: 2
   temporalAntialiasing:
     jitterSpread: 0.75
-    sharpness: 0.25
-    stationaryBlending: 0.95
-    motionBlending: 0.85
+    sharpness: 0.37
+    stationaryBlending: 0.676
+    motionBlending: 0.234
   subpixelMorphologicalAntialiasing:
     quality: 2
   fastApproximateAntialiasing:
