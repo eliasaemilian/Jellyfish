@@ -7,6 +7,7 @@ public class ImgE_Underwater : MonoBehaviour {
 
 	[SerializeField] private Material mat;
 	[SerializeField] private Material matfog;
+	[SerializeField] private bool enableFog;
 
 	// Start is called before the first frame update
 	void Start() {
@@ -21,6 +22,6 @@ public class ImgE_Underwater : MonoBehaviour {
 	private void OnRenderImage( RenderTexture src, RenderTexture dst ) {
 
 		Graphics.Blit( src, dst, mat );
-		//	Graphics.Blit( src, dst, matfog );
+		if ( enableFog ) Graphics.Blit( src, dst, matfog );
 	}
 }
