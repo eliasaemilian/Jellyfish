@@ -25,6 +25,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DepthDistance: 92.01
+    - _DepthStart: 2.4
     - _NoiseFrequency: 1
     - _NoiseScale: 1
     - _NoiseSpeed: 1

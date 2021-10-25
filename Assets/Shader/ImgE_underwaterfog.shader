@@ -4,6 +4,8 @@ Shader "Hidden/ImgE_underwaterfog"
 	{
 		_MainTex( "Texture", 2D ) = "white" {}
 		_FogColor( "Fog Color", Color ) = ( 1,1,1,1 )
+		_DepthStart( "Depth Start", float ) = 1
+		_DepthDistance( "Depth Distance", float ) = 1
 	}
 		SubShader
 		{
@@ -21,6 +23,7 @@ Shader "Hidden/ImgE_underwaterfog"
 				#include "UnityCG.cginc"
 
 				sampler2D _CameraDepthTexture;
+				float _DepthStart, _DepthDistance;
 
 					struct appdata
 					{
@@ -50,8 +53,8 @@ Shader "Hidden/ImgE_underwaterfog"
 					fixed4 frag( v2f i ) : COLOR
 					{
 
-						float depth = Linear01Depth( tex2Dproj( _CameraDepthTexture, UNITY_PROJ_COORD( i.sPos ) ).x );
-
+						float depth = Linear01Depth( tex2Dproj( _CameraDepthTexture, UNITY_PROJ_COORD( i.sPos ) ).x ) * _ProjectionParams.z;
+						depth = saturate( ( depth - _DepthStart ) / _DepthDistance );
 
 						fixed4 tcol = tex2Dproj( _MainTex, i.sPos );
 						fixed4 final = saturate( lerp( tcol, _FogColor * depth, depth ) );
