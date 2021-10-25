@@ -27,10 +27,10 @@ Material:
     m_Floats:
     - _Amount: 1
     - _Debug: 0
-    - _Frequency: 7.63
+    - _Frequency: 2.99
     - _Glossiness: 0.5
     - _Metallic: 0
-    - _Strength: 0.1
+    - _Strength: 0.091
     - _t: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
