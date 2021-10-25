@@ -2240,6 +2240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jellyfish_riganim
       objectReference: {fileID: 0}
+    - target: {fileID: 2412845465978170887, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4767400413853537203, guid: e12c6d4a8772602418ad840c5a155477, type: 3}
       propertyPath: m_TagString
       value: Tentacle
