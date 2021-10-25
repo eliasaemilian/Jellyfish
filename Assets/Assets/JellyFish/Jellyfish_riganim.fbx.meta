@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: e12c6d4a8772602418ad840c5a155477
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      74: -560044350651951064
+    second: Jelly_gonads_jnt|Action
+  - first:
+      74: -1162888103130252985
+    second: Jelly_gonads_jnt|Action.001
+  - first:
+      74: 8169262795284631510
+    second: Jelly_gonads_jnt|Action.002
+  - first:
+      74: -3499320777995335327
+    second: Jelly_gonads_jnt|Bobbing_anim
+  - first:
+      74: -5987412452823865246
+    second: Jelly_gonads_jnt|Bobbing_anim.001
+  - first:
+      74: -8786559623710500304
+    second: Jelly_gonads_jnt|Bobbing_anim.002
+  - first:
+      74: 4162827880712160535
+    second: Jelly_gonads_jnt|Cube.001Action
+  - first:
+      74: -8355463569672232351
+    second: Jelly_gonads_jnt|Cube.001Action.001
+  - first:
+      74: 177192607704759969
+    second: Jelly_gonads_jnt|Idle_anim
+  - first:
+      74: -4607264061176140929
+    second: Jelly_gonads_jnt|PlaneAction
+  - first:
+      74: -8754378354300347283
+    second: Jelly_gonads_jnt|PlaneAction.001
+  - first:
+      74: -3908417567809938474
+    second: Jelly_gonads_jnt|PlaneAction.002
+  - first:
+      74: 3788747692041440576
+    second: Jelly_gonads_jnt|PlaneAction.003
+  - first:
+      74: -3478809449184952060
+    second: Jelly_gonads_jnt|PlaneAction.004
+  - first:
+      74: -8443176491527021455
+    second: Jelly_gonads_jnt|PlaneAction.005
+  - first:
+      74: 1413856018681031056
+    second: Jelly_gonads_jnt|PlaneAction.006
+  - first:
+      74: -991471646849190888
+    second: Jelly_gonads_jnt|PlaneAction.007
+  - first:
+      74: 5217625500898544531
+    second: Jelly_gonads_jnt|PlaneAction.008
+  - first:
+      74: 5733326000305338932
+    second: Jelly_gonads_jnt|PlaneAction.009
+  - first:
+      74: -2932516729054724788
+    second: Jelly_gonads_jnt|PlaneAction.010
+  - first:
+      74: -2227219983973177359
+    second: Jelly_gonads_jnt|PlaneAction.011
+  - first:
+      74: -7340627364245583218
+    second: Jelly_gonads_jnt|PlaneAction.012
+  - first:
+      74: 6773084464053408497
+    second: Jelly_gonads_jnt|PlaneAction.013
+  - first:
+      74: 3023342286214001801
+    second: Jelly_gonads_jnt|PlaneAction.014
+  - first:
+      74: -5875636737349370421
+    second: Jelly_gonads_jnt|PlaneAction.015
+  - first:
+      74: -2077445389084128402
+    second: Jelly_gonads_jnt|PlaneAction.016
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
