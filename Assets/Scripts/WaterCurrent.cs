@@ -37,7 +37,7 @@ public class WaterCurrent : MonoBehaviour
 
             Debug.Log("direction : " + direction);
 
-            tentacle.externalAcceleration = new Vector3(direction, 0, 0);
+            tentacle.externalAcceleration = new Vector3(direction, -2, direction );
         }
 
     }
